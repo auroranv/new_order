@@ -237,7 +237,7 @@ b {
   padding-right: 1vw;
   padding-top: 3vh;
   font-family: "Compagnon LightItalic";
-  font-style: italic;
+  /* font-style: italic; */
   /* font-style: italic;
   font-weight: bold; */
   color: black;
