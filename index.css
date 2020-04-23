@@ -116,7 +116,7 @@ em {
 
 a {
   font-family: "Sporting Grotesque";
-  font-weight: bold;
+  /* font-weight: bold; */
   color: black;
   font-size: 62px;
   line-height: 58px;
@@ -206,7 +206,7 @@ b {
   padding-top: 3vh;
   /* font-family: "Syne Extra"; */
   font-family: "Sporting Grotesque";
-  font-weight: bold;
+  /* font-weight: bold; */
   color: black;
   font-size: 62px;
   line-height: 58px;
