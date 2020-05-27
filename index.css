@@ -23,7 +23,7 @@ head {
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 10% auto; /* 15% from the top and centered */
     padding-top: 7vh;
     padding-bottom: 3vh;
     padding-left: 2vw;
@@ -41,7 +41,7 @@ head {
     font-size: 28px;
     font-weight: bold;
     position: absolute;
-    top: 35vh;
+    top: 23vh;
     left: 70vw;
   }
 
@@ -55,8 +55,8 @@ head {
   #myBtn {
     color: white;
     z-index: 1;
-    top: 86vh;
-    left: 94vw;
+    top: 6vh;
+    left: 1vw;
     position: fixed;
     border-radius: 50%;
     background-color: black;
@@ -131,6 +131,7 @@ a::after{
 }
 
 b {
+  font-family: "Compagnon Light";
   font-weight: normal;
   font-style: normal;
 }
