@@ -121,7 +121,7 @@ em {
 a {
   font-family: "Sporting Grotesque Bold";
   /* font-weight: bold; */
-  color: black;
+  color: inherit;
   /* font-size: 62px;
   line-height: 58px; */
   font-size: 4.8vw;
@@ -140,6 +140,11 @@ b {
   font-family: "Compagnon Light";
   font-weight: normal;
   font-style: normal;
+}
+
+span {
+  font-family: "Compagnon Medium";
+
 }
 
 .instructions{
@@ -196,31 +201,57 @@ b {
  .list a{
    text-decoration: none;
  }
-/* .list:active a{
-  text-decoration: none;
+
+.columntitles {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  /* display: contents; */
+  /* position: sticky; */
+  /* display: table; */
 }
-.list:hover a{
-  text-decoration: none;
+
+.ctitle {
+  width: 33.3%;
+  display: flex;
+  float: left;
+  padding: 15px;
+  justify-content: center;
 }
-.list::after a{
-  text-decoration: none;
+
+.button {
+padding-top:0px;
+padding-bottom:0px;
+padding-left: 30px;
+padding-right:30px;
+background: blue;
+border-radius: 100px;
+position: absolute;
+/* display: flex; */
+width: auto;
+font-family: "Sporting Grotesque";
+color: whitesmoke;
+font-size: 1.6vw;
+z-index: 100;
+top: 85vh;
+left: 85vw;
 }
-.list:visited a{
-  text-decoration: none;
-} */
 
 .column1{
+  top: 4vh;
   width: 33.3%;
   height: 100vh;
   /* background: red; */
   float:left;
   padding-left: 1vw;
   padding-right: 1vw;
-  padding-top: 3vh;
+  padding-top: 10vh;
   /* font-family: "Syne Extra"; */
   font-family: "Sporting Grotesque Bold";
   /* font-weight: bold; */
-  color: black;
+  color: blue;
   /* font-size: 62px;
   line-height: 58px; */
   font-size: 4.8vw;
@@ -235,7 +266,7 @@ b {
   float:left;
   padding-left: 1vw;
   padding-right: 1vw;
-  padding-top: 3vh;
+  padding-top: 10vh;
   font-family: "Compagnon Light";
   font-style: normal;
   color: black;
@@ -252,7 +283,7 @@ b {
   float:left;
   padding-left: 1vw;
   padding-right: 1vw;
-  padding-top: 3vh;
+  padding-top: 10vh;
   font-family: "Compagnon Light Italic";
   /* font-style: italic; */
   /* font-style: italic;
